@@ -1,0 +1,48 @@
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\MARS Report Generator.exe
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\MARS Report Generator.deps.json
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\MARS Report Generator.runtimeconfig.json
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\MARS Report Generator.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\MARS Report Generator.pdb
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\BouncyCastle.Cryptography.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\Dapper.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\Google.Protobuf.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\MySql.Data.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\System.Text.Json.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\ZstdSharp.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\runtimes\win-x64\native\comerr64.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\runtimes\win-x64\native\gssapi64.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\runtimes\win-x64\native\k5sprt64.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\runtimes\win-x64\native\krb5_64.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\runtimes\win-x64\native\krbcc64.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\obj\Debug\net6.0\MARS Report Generator.csproj.AssemblyReference.cache
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\obj\Debug\net6.0\MARS Report Generator.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\obj\Debug\net6.0\MARS Report Generator.AssemblyInfoInputs.cache
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\obj\Debug\net6.0\MARS Report Generator.AssemblyInfo.cs
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\obj\Debug\net6.0\MARS Report Generator.csproj.CoreCompileInputs.cache
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\obj\Debug\net6.0\MARS Report Generator.csproj.CopyComplete
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\obj\Debug\net6.0\MARS Report Generator.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\obj\Debug\net6.0\refint\MARS Report Generator.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\obj\Debug\net6.0\MARS Report Generator.pdb
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\obj\Debug\net6.0\MARS Report Generator.genruntimeconfig.cache
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\obj\Debug\net6.0\ref\MARS Report Generator.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\CsvHelper.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\System.Linq.Async.dll
+C:\dev\Futurus\mars-report-gen\MARS Report Generator\bin\Debug\net6.0\MARS Report Generator.dll.config
