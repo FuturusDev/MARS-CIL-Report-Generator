@@ -8,17 +8,19 @@ using System.Text;
 var localFilePath = ConfigurationManager.AppSettings["LocalPath"];
 var filePrepend = ConfigurationManager.AppSettings["FilePrepend"];
 var dayInterval = int.Parse(ConfigurationManager.AppSettings["DayInterval"] ?? "7");
+var excludeFuturusData = Convert.ToBoolean(ConfigurationManager.AppSettings["ExcludeFuturusData"]);
 var dateFormat = "yyyyMMdd";
 var fullLocalFilePath = $"{localFilePath}/{filePrepend}_{DateTime.Now.ToString(dateFormat)}";
 
-var _getUniqueUsersLast7Days = @"
+var ExcludedFuturusData = excludeFuturusData ? "AND us.IsFuturus != 1" : string.Empty;
+var _getUniqueUsersLast7Days = @$"
     SELECT u.ChrisId
     FROM usersession us
         JOIN user u ON (u.ChrisId = us.ChrisId)
-    WHERE us.StartTimeUtc >= DATE(NOW() - INTERVAL @DaysInThePast DAY)
+    WHERE us.StartTimeUtc >= DATE(NOW() - INTERVAL @DaysInThePast DAY) {ExcludedFuturusData}
     GROUP BY u.ChrisId;";
 
-var _getSessionDataByUser = @"
+var _getSessionDataByUser = @$"
     SELECT 
 	    u.FName AS FirstName,
         u.LName AS LastName,
@@ -40,10 +42,10 @@ var _getSessionDataByUser = @"
         LEFT JOIN usersessionstepresult ussr ON (ussr.UserSessionStepId = uss.UserSessionStepId)
         LEFT JOIN resultstatus rs ON (ussr.ResultStatusId = rs.ResultStatusId)
         LEFT JOIN status sta ON (rs.StatusId = sta.StatusId)
-    WHERE us.StartTimeUtc >= DATE(NOW() - INTERVAL @DaysInThePast DAY) AND u.ChrisId = @ChrisId
+    WHERE us.StartTimeUtc >= DATE(NOW() - INTERVAL @DaysInThePast DAY) AND u.ChrisId = @ChrisId {ExcludedFuturusData}
     ORDER BY us.StartTimeUtc, uss.StepId, uss.Attempt;";
 
-var _getAllSessionData = @"
+var _getAllSessionData = @$"
     SELECT 
 	    u.FName AS FirstName,
         u.LName AS LastName,
@@ -65,7 +67,7 @@ var _getAllSessionData = @"
         LEFT JOIN usersessionstepresult ussr ON (ussr.UserSessionStepId = uss.UserSessionStepId)
         LEFT JOIN resultstatus rs ON (ussr.ResultStatusId = rs.ResultStatusId)
         LEFT JOIN status sta ON (rs.StatusId = sta.StatusId)
-    WHERE us.StartTimeUtc >= DATE(NOW() - INTERVAL @DaysInThePast DAY)
+    WHERE us.StartTimeUtc >= DATE(NOW() - INTERVAL @DaysInThePast DAY) {ExcludedFuturusData}
     ORDER BY us.StartTimeUtc, uss.StepId, uss.Attempt;";
 
 var connectionString = "server=mars-troubleshootingvr.mysql.database.azure.com;uid=marsadmin;pwd=RedZebra10202023330!;database=dbo";
