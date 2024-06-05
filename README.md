@@ -1,6 +1,6 @@
-# MARS-Troubleshooting-Report-Generator
+# MARS-CIL-Report-Generator
 
-Run `MARS Report Generator.exe` in `bin\debug\net6` to generate MARS Troubleshooting Data.
+Run `MARS Report Generator.exe` in `bin\debug\net6` to generate MARS CIL Data.
 
 The following values are available in the `App.config` to be updated:
 
